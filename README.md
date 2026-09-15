@@ -1,24 +1,24 @@
 # Basic OpenCV
 
-A collection of beginner-friendly OpenCV examples in Python.
+A collection of beginner-friendly **OpenCV projects and examples written in Python**, covering fundamental computer vision concepts and image-processing techniques.
 
-## Project structure
+## 📁 Project Structure
 
 ```text
-src/            Python examples
-assets/images/  Input images
-assets/videos/  Input videos
-outputs/        Generated image outputs
-```
-
-## Setup
-
-```bash
-pip install -r requirements.txt
-```
-
-Run an example from the project root:
-
-```bash
-python src/edge_detection.py
-```
+Basic-opencv/
+│
+├── src/
+│   └── Python/OpenCV examples
+│
+├── assets/
+│   ├── images/
+│   │   └── Input images
+│   │
+│   └── videos/
+│       └── Input videos
+│
+├── outputs/
+│   └── Generated image and video outputs
+│
+├── requirements.txt
+└── README.md
