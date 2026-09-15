@@ -9,10 +9,6 @@ image_path = PROJECT_ROOT / 'assets' / 'images' / 'marssurface.jpg'
 
 img = cv2.imread(image_path)
 
-# write image
-
-cv2.imwrite(str(PROJECT_ROOT / 'outputs' / 'surface_out.jpg'), img)
-
 # visualize image
 
 cv2.imshow('image', img)
